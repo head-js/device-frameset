@@ -4,21 +4,13 @@
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
     "dev:lib": "pnpm --filter react-device-frameset dev",
-    "dev:example": "pnpm --filter react-device-frameset-example dev",
-    "build": "pnpm build:lib && pnpm build:example",
+    "dev:docs": "pnpm --filter react-device-frameset-docs dev",
+    "build": "pnpm build:lib",
     "build:lib": "pnpm --filter react-device-frameset build",
-    "build:example": "pnpm --filter react-device-frameset-example build",
     "lint": "eslint ./**/*.{ts,tsx}",
     "lint:fix": "eslint ./**/*.{ts,tsx} --fix"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-device-frameset": "workspace:*",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2"
-  },
   "devDependencies": {
-    "@mdx-js/react": "^2.1.5",
     "@types/node": "^16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
