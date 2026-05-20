@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { DeviceOptions, DeviceFramesetProps } from './DeviceFrameset'
-import { DeviceName, DeviceNames } from './DeviceOptions'
+import { DeviceOptions, DeviceFramesetProps, DeviceName, DeviceNames } from 'react-device-frameset'
+import './device-emulator.scss'
 
 export type DeviceEmulatorProps = React.HTMLAttributes<HTMLDivElement> & {
     banDevices?: DeviceName[]

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 import DeviceSelectorPage from './pages/DeviceSelectorPage'
-import EmulatorPage from './pages/EmulatorPage'
+import DeviceEmulatorPage from './pages/DeviceEmulatorPage'
 const navItems = [
   { path: '/', label: 'DeviceSelector' },
   { path: '/emulator', label: 'DeviceEmulator' },
@@ -44,7 +44,7 @@ const App = () => (
   <Layout>
     <Routes>
       <Route path="/" element={<DeviceSelectorPage />} />
-      <Route path="/emulator" element={<EmulatorPage />} />
+      <Route path="/emulator" element={<DeviceEmulatorPage />} />
     </Routes>
   </Layout>
   </HashRouter>
