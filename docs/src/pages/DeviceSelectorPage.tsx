@@ -1,6 +1,7 @@
-import { DeviceFrameset, DeviceSelector } from 'react-device-frameset'
-import 'react-device-frameset/styles/device-selector.css'
+import { DeviceFrameset } from 'react-device-frameset'
 import 'react-device-frameset/styles/marvel-devices.css'
+import { DeviceSelector } from '../components/DeviceSelector'
+import '../components/device-selector.scss'
 
 const DevicePage = () => (
   <DeviceSelector>

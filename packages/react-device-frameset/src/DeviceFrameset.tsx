@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react'
 
-import type { DeviceFramesetProps } from './DeviceOptions'
-import { DeviceOptions } from './DeviceOptions'
+import type { DeviceFramesetProps, DeviceName } from './DeviceOptions'
+import { DeviceOptions, DeviceNames } from './DeviceOptions'
 
-export { DeviceOptions, DeviceFramesetProps }
+export { DeviceOptions, DeviceFramesetProps, DeviceName, DeviceNames }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function omit<T extends Record<string, any>, K extends string> (item: T, keys: K[]): Omit<T, K> {
