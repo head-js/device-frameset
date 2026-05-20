@@ -1,4 +1,4 @@
-import { DeviceFrameset } from 'react-device-frameset'
+import { DeviceFrameset } from 'device-frameset'
 import { DeviceEmulator } from '../components/DeviceEmulator'
 
 const EmulatorPage = () => (

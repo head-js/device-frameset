@@ -2,9 +2,9 @@
   "author": "Albert Hbrls <shuaizhexu@gmail.com>",
   "private": false,
   "scripts": {
-    "dev:lib": "pnpm --filter react-device-frameset dev",
-    "dev:docs": "pnpm --filter react-device-frameset-docs dev",
-    "build:lib": "pnpm --filter react-device-frameset build",
+    "dev:lib": "pnpm --filter device-frameset dev",
+    "dev:docs": "pnpm --filter device-frameset-docs dev",
+    "build:lib": "pnpm --filter device-frameset build",
     "lint": "eslint ./**/*.{ts,tsx}",
     "lint:fix": "eslint ./**/*.{ts,tsx} --fix"
   },

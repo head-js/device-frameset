@@ -19,4 +19,5 @@ export default defineConfig({
   dts: true,
   clean: true,
   esbuildPlugins: [sassPlugin],
+  external: ['react', 'react-dom', 'react/jsx-runtime'],
 })

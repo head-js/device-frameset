@@ -27,7 +27,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
         </Link>
       ))}
       <a
-        href="https://github.com/zheeeng/react-device-frameset"
+        href="https://github.com/head-js/device-frameset"
         target="_blank"
         rel="noopener noreferrer"
         style={{ marginLeft: 'auto', textDecoration: 'none', color: '#333' }}

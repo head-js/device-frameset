@@ -1,5 +1,5 @@
 {
-  "name": "react-device-frameset-docs",
+  "name": "device-frameset-docs",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-device-frameset": "workspace:*",
+    "device-frameset": "workspace:*",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2"
   },

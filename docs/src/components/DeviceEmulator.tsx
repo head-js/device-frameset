@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
-import { DeviceOptions, DeviceFramesetProps, DeviceName, DeviceNames } from 'react-device-frameset'
+import { DeviceOptions, DeviceFramesetProps, DeviceName, DeviceNames } from 'device-frameset'
 import './device-emulator.scss'
 
 export type DeviceEmulatorProps = React.HTMLAttributes<HTMLDivElement> & {

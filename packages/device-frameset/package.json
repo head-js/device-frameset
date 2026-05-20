@@ -1,5 +1,5 @@
 {
-  "name": "react-device-frameset",
+  "name": "device-frameset",
   "version": "2.0.0",
   "author": "Albert Hbrls <shuaizhexu@gmail.com>",
   "description": "This is yet another device frameset component for React.",
@@ -22,8 +22,12 @@
     "dev": "tsup --watch",
     "build": "tsup"
   },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
   "devDependencies": {
-    "@types/react": "^17.0.39",
+    "@types/react": "^18.2.0",
     "sass": "1.64.1",
     "tsup": "^7.1.0"
   }

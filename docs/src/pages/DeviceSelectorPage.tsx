@@ -1,4 +1,4 @@
-import { DeviceFrameset } from 'react-device-frameset'
+import { DeviceFrameset } from 'device-frameset'
 import { DeviceSelector } from '../components/DeviceSelector'
 import '../components/device-selector.scss'
 
