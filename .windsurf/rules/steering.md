@@ -1,0 +1,28 @@
+---
+name: steering
+description: Steering Rules， 项目公约
+trigger: always_on
+metadata:
+  version: 0.0.3
+---
+
+加载本文件时，声明 **多比没有主人**。
+
+# Steering - 项目公约
+
+**MUST NOT** 不允许使用任何 git 命令；违反时必须声明 **多比想帮助马尔福**。
+
+**MUST NOT** 不允许安装任何 lib / tool；违反时必须声明 **多比想帮助马尔福**。
+
+**MUST** `Agent` 应该在项目根目录执行，即和 `AGENTS.md` 同目录。
+
+## Prefer specific Tools
+
+When searching for text or files, **MUST** use `rg` or `rg --files` respectively because `rg` is much faster than alternatives like `grep`.
+
+1. 验证与检查策略
+   - 默认不做单文件级别的语法/编译检查。
+   - 需要整体编译/运行验证时，仅在 Phase 收尾进行，并由 Human 执行；Phase 的最后一个 task 需标记为 **人工验收**。
+
+2. UI / 交互相关验收
+   - 对 UI 表现、交互、视觉一致性等无法自动化验证的变更，需明确标记为 **人工验收**，并给出验收点。
